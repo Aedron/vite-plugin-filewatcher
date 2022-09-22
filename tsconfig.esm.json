@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist/esm/",
+		"module": "esnext",
+		"target": "esnext",
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"moduleResolution": "node",
+		"baseUrl": "./src",
+		"allowJs": false,
+		"skipLibCheck": true,
+		"experimentalDecorators": true,
+		"declaration": true,
+		"sourceMap": true,
+		"inlineSources": true,
+		"jsx": "react-jsx",
+		"resolveJsonModule": true,
+		"incremental": true,
+		"types": ["node"]
+	},
+	"include": ["./src"]
+}
